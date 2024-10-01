@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/lib/CMSIS/Include",
+                "${workspaceFolder}/lib/STM32F4xx/Include",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "\"C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\13.3 rel1\\bin\\arm-none-eabi-gcc.exe\"",
+            "compilerArgs": [
+                "-DSTM32F411xE"
+            ],
+            "cStandard": "c99"
+        }
+    ],
+    "version": 4
+}
